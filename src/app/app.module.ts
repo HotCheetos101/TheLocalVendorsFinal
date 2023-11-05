@@ -11,7 +11,7 @@ import { HeaderUserComponent } from './header-user/header-user.component';
   declarations: [
     AppComponent,
     DashboardComponent,
-    LoginPageComponent
+    LoginPageComponent,
     AppComponent,
     HeaderUserComponent
   ],
