@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HeaderUserComponent } from './header-user/header-user.component';
     DashboardComponent,
     LoginPageComponent,
     AppComponent,
-    HeaderUserComponent
+    HeaderUserComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
