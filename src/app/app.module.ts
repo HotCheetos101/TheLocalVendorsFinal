@@ -8,6 +8,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginVendorComponent } from './login-vendor/login-vendor.component';
+import { RegisterVendorComponent } from './register-vendor/register-vendor.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { LoginVendorComponent } from './login-vendor/login-vendor.component';
     AppComponent,
     HeaderUserComponent,
     FooterComponent,
-    LoginVendorComponent
+    LoginVendorComponent,
+    FooterComponent,
+    RegisterVendorComponent
   ],
   imports: [
     BrowserModule,
