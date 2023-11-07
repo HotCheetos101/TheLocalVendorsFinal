@@ -9,12 +9,9 @@ import { HeaderUserComponent } from './header-user/header-user.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginVendorComponent } from './login-vendor/login-vendor.component';
 import { RegisterVendorComponent } from './register-vendor/register-vendor.component';
-<<<<<<< HEAD
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
-=======
 import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.component';
->>>>>>> 46f260b4dfb21fa7586d3d529c33f3c938757b94
 
 @NgModule({
   declarations: [
@@ -27,12 +24,9 @@ import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.com
     LoginVendorComponent,
     FooterComponent,
     RegisterVendorComponent,
-<<<<<<< HEAD
+    VendorMainPageComponent,
     SideBarComponent,
-CurrencyConverterComponent
-=======
-    VendorMainPageComponent
->>>>>>> 46f260b4dfb21fa7586d3d529c33f3c938757b94
+    CurrencyConverterComponent
   ],
   imports: [
     BrowserModule,
