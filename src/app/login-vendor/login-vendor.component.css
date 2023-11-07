@@ -1,6 +1,8 @@
 #div-container {
     display: flex;
     height: 100vh;
+    z-index: 1;
+
 
 }
 
@@ -106,7 +108,3 @@ h1 {
 .loginbox a:hover {
     color: #927fda;
 }
-
-
-
-

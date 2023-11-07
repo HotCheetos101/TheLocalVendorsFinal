@@ -3,11 +3,21 @@
     padding: 5px;
     margin: 0px;
     width: 100%;
+    box-sizing: border-box;
     height: 120px;
-    background-color: #E0F4FF;
+    /* background-color: #E0F4FF; */
+
+    background: linear-gradient(to bottom, #B4E1FF, #9CC6E6);
+
+
     position: absolute;
-    /* border: solid; */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+
+    z-index: 3;
 
 }
 
