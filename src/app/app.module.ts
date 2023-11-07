@@ -9,6 +9,7 @@ import { HeaderUserComponent } from './header-user/header-user.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginVendorComponent } from './login-vendor/login-vendor.component';
 import { RegisterVendorComponent } from './register-vendor/register-vendor.component';
+import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RegisterVendorComponent } from './register-vendor/register-vendor.compo
     FooterComponent,
     LoginVendorComponent,
     FooterComponent,
-    RegisterVendorComponent
+    RegisterVendorComponent,
+    VendorMainPageComponent
   ],
   imports: [
     BrowserModule,
