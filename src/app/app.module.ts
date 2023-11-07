@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginVendorComponent } from './login-vendor/login-vendor.component';
 import { RegisterVendorComponent } from './register-vendor/register-vendor.component';
 
 @NgModule({
@@ -16,6 +17,8 @@ import { RegisterVendorComponent } from './register-vendor/register-vendor.compo
     LoginPageComponent,
     AppComponent,
     HeaderUserComponent,
+    FooterComponent,
+    LoginVendorComponent,
     FooterComponent,
     RegisterVendorComponent
   ],
