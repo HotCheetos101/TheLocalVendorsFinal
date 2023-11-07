@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HeaderUserComponent } from './header-user/header-user.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginVendorComponent } from './login-vendor/login-vendor.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     LoginPageComponent,
     AppComponent,
     HeaderUserComponent,
-    FooterComponent
+    FooterComponent,
+    LoginVendorComponent
   ],
   imports: [
     BrowserModule,

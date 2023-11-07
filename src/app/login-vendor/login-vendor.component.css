@@ -1,0 +1,9 @@
+.centered {
+    text-align: center;
+}
+
+/* Center the button text within its cell */
+table button {
+    margin: 0 auto;
+    display: block;
+}
