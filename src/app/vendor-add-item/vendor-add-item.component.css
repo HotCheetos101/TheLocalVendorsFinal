@@ -1,0 +1,9 @@
+#items-container{
+    position: fixed;
+    padding: 5px;
+    border: 1px solid;
+    width: 80%;
+    height: 87vh;
+    right: 0px;
+    bottom: 0px;
+}
