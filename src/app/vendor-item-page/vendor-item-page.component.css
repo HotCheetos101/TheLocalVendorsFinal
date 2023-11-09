@@ -1,10 +1,72 @@
 #main-container{
     position: fixed;
     padding: 5px;
-    
     border: 1px solid;
     width: 80%;
     height: 87vh;
     right: 0px;
     bottom: 0px;
+    
 }
+
+#image-bottom{
+    position: absolute;
+    height: 5vh;
+    width: 50vh;
+    border: solid;
+    bottom: 15vh;
+    left: 10vh;
+}
+
+#image-box{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border: solid;
+    background-repeat: no-repeat;
+    
+}
+
+#image-container {
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border: solid;
+    background-repeat: no-repeat;
+    background-image: url('/assets/bag.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: 55vh;
+    top: 15vh;
+    left: 10vh;
+    
+}
+
+#right-side-description{
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    height: 70vh;
+    width: 80vh;
+    border: solid;
+    right: 5vh;
+    top: 5vh;
+}
+
+#image-forRatings{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 80vh;
+    border: solid;
+    background-image: url('/assets/star-rating.png');
+}
+
+#right-in-container{
+    position: absolute;
+    height: 20vh;
+    width: 80vh;
+    border: solid;
+    top: 25vh;
+}
+
