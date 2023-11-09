@@ -1,10 +1,80 @@
 #main-container{
     position: fixed;
     padding: 5px;
-    
     border: 1px solid;
     width: 80%;
     height: 87vh;
     right: 0px;
     bottom: 0px;
+    
 }
+
+#image-bottom{
+    position: absolute;
+    height: 5vh;
+    width: 50vh;
+    border: solid;
+    bottom: 15vh;
+    left: 10vh;
+}
+
+#image-box{
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border: solid;
+    background-repeat: no-repeat;
+    
+}
+
+#image-container {
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border: solid;
+    background-repeat: no-repeat;
+    background-image: url('/assets/bag.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: 55vh;
+    top: 15vh;
+    left: 10vh;
+    
+}
+
+#right-side-description{
+    background: linear-gradient(to bottom, #B4E1FF, #9CC6E6);
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    height: 70vh;
+    width: 80vh;
+    border: solid;
+    right: 5vh;
+    top: 5vh;
+}
+
+#image-forRatings{
+    background-color: azure;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 80vh;
+    border: solid;
+    background-image: url('/assets/star-rating.png');
+    background-size: 40vh;
+    background-position: center center;
+    
+}
+
+#right-in-container{
+    background-color: azure;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    height: 40vh;
+    width: 80vh;
+    border: solid;
+    top: 15vh;
+}
+
