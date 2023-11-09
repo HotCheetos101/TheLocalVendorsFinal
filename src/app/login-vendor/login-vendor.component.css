@@ -41,12 +41,12 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -70px;
+    top: -73px;
 }
 
 .loginbox {
     width: 500px;
-    height: 400px;
+    height: 450px;
     box-sizing: border-box;
     padding: 70px 30px;
     position: relative;

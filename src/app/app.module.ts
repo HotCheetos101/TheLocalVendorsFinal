@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -14,6 +13,7 @@ import { CurrencyConverterComponent } from './currency-converter/currency-conver
 import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.component';
 import { VendorSideBarComponent } from './vendor-side-bar/vendor-side-bar.component';
 import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.component';
+import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,8 @@ import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.compon
     SideBarComponent,
     CurrencyConverterComponent,
     VendorSideBarComponent,
-    VendorAddItemComponent
+    VendorAddItemComponent,
+    VendorItemPageComponent
   ],
   imports: [
     BrowserModule,
