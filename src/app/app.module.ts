@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginVendorComponent } from './login-vendor/login-vendor.component';
 import { RegisterVendorComponent } from './register-vendor/register-vendor.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
-import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.component';
 import { VendorSideBarComponent } from './vendor-side-bar/vendor-side-bar.component';
 import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.component';
@@ -29,7 +28,6 @@ import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-c
     RegisterVendorComponent,
     VendorMainPageComponent,
     SideBarComponent,
-    CurrencyConverterComponent,
     VendorSideBarComponent,
     VendorAddItemComponent,
     CurrencyCalcuVendorComponent
