@@ -14,6 +14,7 @@ import { CurrencyConverterComponent } from './currency-converter/currency-conver
 import { VendorMainPageComponent } from './vendor-main-page/vendor-main-page.component';
 import { VendorSideBarComponent } from './vendor-side-bar/vendor-side-bar.component';
 import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.component';
+import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-calcu-vendor.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.compon
     SideBarComponent,
     CurrencyConverterComponent,
     VendorSideBarComponent,
-    VendorAddItemComponent
+    VendorAddItemComponent,
+    CurrencyCalcuVendorComponent
   ],
   imports: [
     BrowserModule,
