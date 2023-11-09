@@ -43,6 +43,7 @@
 }
 
 #right-side-description{
+    background: linear-gradient(to bottom, #B4E1FF, #9CC6E6);
     position: absolute;
     padding: 10px;
     margin: 10px;
@@ -54,19 +55,26 @@
 }
 
 #image-forRatings{
+    background-color: azure;
     position: absolute;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 10vh;
     width: 80vh;
     border: solid;
     background-image: url('/assets/star-rating.png');
+    background-size: 40vh;
+    background-position: center center;
+    
 }
 
 #right-in-container{
+    background-color: azure;
+    padding: 5px;
+    margin: 5px;
     position: absolute;
-    height: 20vh;
+    height: 40vh;
     width: 80vh;
     border: solid;
-    top: 25vh;
+    top: 15vh;
 }
 
