@@ -30,7 +30,7 @@ import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-c
     SideBarComponent,
     VendorSideBarComponent,
     VendorAddItemComponent,
-    VendorItemPageComponent
+    VendorItemPageComponent,
     VendorAddItemComponent,
     CurrencyCalcuVendorComponent
   ],
