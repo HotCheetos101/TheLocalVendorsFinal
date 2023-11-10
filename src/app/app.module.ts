@@ -17,6 +17,7 @@ import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.compon
 import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-calcu-vendor.component';
 import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.component';
 import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.component';
+import { RegisterUserComponent } from './register-user/register-user.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.com
     VendorItemPageComponent,
     CurrencyCalcuVendorComponent,
     ForumTopicViewComponent,
-    LoginUserComponent
+    LoginUserComponent,
+    RegisterUserComponent,
   ],
   imports: [
     BrowserModule,
