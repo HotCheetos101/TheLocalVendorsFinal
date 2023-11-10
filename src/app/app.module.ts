@@ -16,6 +16,7 @@ import { VendorSideBarComponent } from './vendor-side-bar/vendor-side-bar.compon
 import { VendorAddItemComponent } from './vendor-add-item/vendor-add-item.component';
 import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-calcu-vendor.component';
 import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.component';
+import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.com
     VendorSideBarComponent,
     VendorAddItemComponent,
     VendorItemPageComponent,
-    CurrencyCalcuVendorComponent
+    CurrencyCalcuVendorComponent,
+    ForumTopicViewComponent
   ],
   imports: [
     BrowserModule,
