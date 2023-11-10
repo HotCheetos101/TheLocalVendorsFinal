@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { LoginUserComponent } from './login-user/login-user.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -36,7 +36,8 @@ import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.com
     VendorAddItemComponent,
     VendorItemPageComponent,
     CurrencyCalcuVendorComponent,
-    ForumTopicViewComponent
+    ForumTopicViewComponent,
+    LoginUserComponent
   ],
   imports: [
     BrowserModule,
