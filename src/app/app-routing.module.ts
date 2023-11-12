@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.component';
 import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-calcu-vendor.component';
+import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 
 const routes: Routes = [
  {path: '', component: LoginPageComponent},
@@ -22,7 +23,7 @@ const routes: Routes = [
  {path: 'user-dashboard', component:DashboardComponent},
  {path: 'vendor-item-page', component:VendorItemPageComponent},
  {path: 'vendor-currency', component:CurrencyCalcuVendorComponent},
-
+ {path: 'user-currency', component: CurrencyConverterComponent}
 ];
 
 @NgModule({
