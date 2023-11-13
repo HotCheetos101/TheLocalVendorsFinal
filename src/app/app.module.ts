@@ -18,6 +18,7 @@ import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-c
 import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.component';
 import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
+import { ForumMainComponent } from './forum-main/forum-main.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
     ForumTopicViewComponent,
     LoginUserComponent,
     RegisterUserComponent,
+    ForumMainComponent,
   ],
   imports: [
     BrowserModule,
