@@ -41,11 +41,17 @@
     flex-wrap: wrap;
     /* border-style: solid; */
     overflow-y: auto;
-
-
-
 }
 
+
+
+#main-dashboard::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+#main-dashboard::-webkit-scrollbar-thumb {
+    width: 0.1em;
+}
 
 /* .item-container {
     display: flex;
