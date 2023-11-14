@@ -20,6 +20,7 @@ import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.com
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { ForumMainComponent } from './forum-main/forum-main.component';
 import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
