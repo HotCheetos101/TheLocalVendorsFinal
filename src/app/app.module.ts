@@ -23,6 +23,7 @@ import { ItemPageComponent } from './item-page/item-page.component';
 import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
+import { ProfileEditInfoComponent } from './profile-edit-info/profile-edit-info.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { VendorAccountPageComponent } from './vendor-account-page/vendor-account
     VendorEditPageComponent,
     ProfilePageComponent,
     VendorAccountPageComponent,
+    ProfileEditInfoComponent,
   ],
   imports: [
     BrowserModule,

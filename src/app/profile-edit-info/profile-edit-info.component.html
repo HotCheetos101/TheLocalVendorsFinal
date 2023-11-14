@@ -1,0 +1,69 @@
+<div class="main">
+    <h2>IDENTITY</h2>
+    <div class="card">
+        <div class="card-body">
+            <i class="fa fa-pen fa-xs edit"></i>
+            <form id="editForm">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td><input type="text" id="name" value="Gerald Understand"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="text" id="email" value="AAAAA@gmail.com"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>:</td>
+                            <td><input type="text" id="address" value="Skina Japan"></td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                            <td>:</td>
+                            <td><input type="text" id="contact" value="09232323"></td>
+                        </tr>
+                        <tr>
+                            <td>template</td>
+                            <td>:</td>
+                            <td><input type="text" id="template1" value="template"></td>
+                        </tr>
+                        <tr>
+                            <td>Template</td>
+                            <td>:</td>
+                            <td><input type="text" id="template2" value="Template"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <button id="editButton" onclick="editProfile()">Edit Info</button>
+    </div>
+</div>
+
+<script>
+    function editProfile() {
+        // Get values from the form
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var address = document.getElementById("address").value;
+        var contact = document.getElementById("contact").value;
+        var template1 = document.getElementById("template1").value;
+        var template2 = document.getElementById("template2").value;
+
+        // Perform any necessary validation or API calls to update the user's profile
+
+        // For now, let's just log the updated values
+        console.log("Updated Profile Information:");
+        console.log("Name: " + name);
+        console.log("Email: " + email);
+        console.log("Address: " + address);
+        console.log("Contact: " + contact);
+        console.log("Template 1: " + template1);
+        console.log("Template 2: " + template2);
+    }
+</script>
+
