@@ -13,6 +13,7 @@ import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-c
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
 
 const routes: Routes = [
  {path: '', component: LoginPageComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
  {path: 'user-currency', component: CurrencyConverterComponent},
  {path: 'vendor-edit-page', component:VendorEditPageComponent},
  {path: 'profile-user', component:ProfilePageComponent},
+ {path: 'profile-vendor', component:VendorAccountPageComponent}
  
 ];
 

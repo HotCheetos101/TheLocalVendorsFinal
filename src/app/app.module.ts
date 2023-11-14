@@ -21,6 +21,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { ForumMainComponent } from './forum-main/forum-main.component';
 import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
     ForumMainComponent,
     VendorEditPageComponent,
     ProfilePageComponent,
+    VendorAccountPageComponent,
   ],
   imports: [
     BrowserModule,
