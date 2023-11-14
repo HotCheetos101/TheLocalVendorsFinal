@@ -20,7 +20,7 @@
     left: 1px;
     right: 1px;
     background-image: url(src/assets/map.JPG);  */
-    width: 148vh; 
+    width: 149vh; 
     height: 150px; 
     background-image: url("src/assets/map.JPG");
     background-size: cover; 
@@ -39,7 +39,7 @@
 
 #item-list{
     margin-top: 5px;
-    padding: 5px;
+    padding: 0px;
     height: fit-content;
     display: flex;
     background-color: white;
@@ -86,19 +86,26 @@
 
 }
 
-#item-container{
+#item-container {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 1240px;
-    height: 50px;
-    padding: 10px;
-    margin: 10px;
+    height: 60px;
+    padding: 0px;
+    margin: 20px;
     background-image: url("/assets/dmango.jpg");
-    background-size: cover; 
-    background-position: center; 
-    /* border: solid; */
+    background-size: cover;
+    background-position: center;
+  }
+
+.item-container:hover {
+    cursor: pointer;
+    background-color: aqua;
 }
+
+
+
 
 
 

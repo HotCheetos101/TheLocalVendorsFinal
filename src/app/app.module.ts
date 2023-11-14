@@ -19,7 +19,13 @@ import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.com
 import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { ForumMainComponent } from './forum-main/forum-main.component';
+<<<<<<< HEAD
 import { ItemPageComponent } from './item-page/item-page.component';
+=======
+import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
+>>>>>>> 9a333c7f21c1a5b7b1ef8c819eca12db5a39f849
 
 @NgModule({
   declarations: [
@@ -43,7 +49,13 @@ import { ItemPageComponent } from './item-page/item-page.component';
     LoginUserComponent,
     RegisterUserComponent,
     ForumMainComponent,
+<<<<<<< HEAD
     ItemPageComponent,
+=======
+    VendorEditPageComponent,
+    ProfilePageComponent,
+    VendorAccountPageComponent,
+>>>>>>> 9a333c7f21c1a5b7b1ef8c819eca12db5a39f849
   ],
   imports: [
     BrowserModule,
