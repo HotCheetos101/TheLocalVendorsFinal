@@ -5,8 +5,8 @@
 
     background-color: #F1F2F6;
     width: 300px;
-    border-right: solid;
-    border-color: antiquewhite;
+    /* border-right: solid;
+    border-color: antiquewhite; */
 
     height: 100vh;
     display: flex;
