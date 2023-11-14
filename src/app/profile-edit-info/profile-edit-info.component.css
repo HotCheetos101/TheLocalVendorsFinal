@@ -1,5 +1,6 @@
 * {
     margin: 0;
+  
 }
 #header-container {
     top: 0px;
@@ -155,7 +156,8 @@ input[type="text"] {
 
 
 body {
-    background-color: #ff0000;
+    background-color: #F1F2F6;
+
     font-family: Arial;
     overflow: hidden;
 }
