@@ -19,6 +19,7 @@ import { VendorItemPageComponent } from './vendor-item-page/vendor-item-page.com
 import { ForumTopicViewComponent } from './forum-topic-view/forum-topic-view.component';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { ForumMainComponent } from './forum-main/forum-main.component';
+import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ForumMainComponent } from './forum-main/forum-main.component';
     LoginUserComponent,
     RegisterUserComponent,
     ForumMainComponent,
+    VendorEditPageComponent,
   ],
   imports: [
     BrowserModule,
