@@ -45,6 +45,7 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
     RegisterUserComponent,
     ForumMainComponent,
     VendorEditPageComponent,
+    ProfilePageComponent,
   ],
   imports: [
     BrowserModule,
