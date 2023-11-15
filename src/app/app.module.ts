@@ -24,6 +24,8 @@ import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.com
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
 import { ProfileEditInfoComponent } from './profile-edit-info/profile-edit-info.component';
+import { ProfilePageVendorComponent } from './profile-page-vendor/profile-page-vendor.component';
+import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profile-edit-info-vendor.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,8 @@ import { ProfileEditInfoComponent } from './profile-edit-info/profile-edit-info.
     ProfilePageComponent,
     VendorAccountPageComponent,
     ProfileEditInfoComponent,
+    ProfilePageVendorComponent,
+    ProfileEditInfoVendorComponent,
   ],
   imports: [
     BrowserModule,
