@@ -14,7 +14,7 @@ body {
   margin: 15px auto 20px;
   text-align: center;
   color: #316BFF;
-  
+
 }
 
 hr {
@@ -37,7 +37,7 @@ hr {
   padding: 30px;
   /* margin: 10px auto; Added margin to bring it closer to the header */
   border-radius: 40px;
- 
+
   background-color: #E0F4FF;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -77,26 +77,27 @@ label {
 
 @media (max-width: 768px) {
   hr {
-      width: 60%;
+    width: 60%;
   }
 
   .main {
-      width: 90%;
+    width: 90%;
   }
 }
 
 @media (max-width: 400px) {
   .heading {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   hr {
-      width: 75%;
+    width: 75%;
   }
 
   #finalAmount h2,
   .finalValue {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
+
 /*HEADER */

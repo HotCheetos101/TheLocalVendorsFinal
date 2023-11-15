@@ -1,272 +1,139 @@
-body{
-    margin: 0;
-}
-*{
-    box-sizing: border-box;
-}
-  .comment-area textarea {
+#main-container {
+
     width: 100%;
-    height: 80px; /* Adjust the height as needed */
-    padding: 5px;
-    margin-bottom: 10px;
-    overflow-y: hidden; /* Disable vertical scrollbar */
-}
-.comments-container {
-    background-color: #ffffff;
-    padding: 8px; /* Adjust the padding as needed */
-    margin-top: 5px;
-    overflow-y: hidden; /* Disable vertical scrollbar */
-}
-
-.comments-container .body {
-    display: flex;
-    font-size: 14px; /* Adjust the font size as needed */
-}
-
-.comments-container .body .authors {
-    flex: 20%;
-}
-
-.comments-container .body .content {
-    flex: 80%;
-    color: #000000;
-    font-size: 14px; /* Adjust the font size as needed */
-}
-
-.comments-container .body .authors img {
-    max-width: 30px;
-    max-height: 40px;
-}
-
-.comment-area textarea {
-    width: 100%;
-    height: 80px;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-html{
-    font-size: 14px;
-    font-family: 'Titillium Web', sans-serif;
-    background-color:rgb(255, 255, 255);
-    color:#FEFEFE;
-}
-
-a{
-    color:#FF0042;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-h1{
-    font-size:16px;
-    font-weight: bolder;
-}
-
-
-
-.container{
-    margin: 20px;
-    padding: 20px;
-}
-
-
-
-
-.head{
-    display: flex;
-    background-color: #B4E1FF;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 15px;
-    color: #000000;
-}
-.users{
-    color: #000000;
-}
-.authors{
-    flex: 20%;
-}
-
-.content{
-    flex: 80%;
-    color: #000000;
-}
-
-.body{
-    display: flex;
-    background-color: #B4E1FF;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-.body .authors .username{
-    font-size: 20px;
-}
-
-.body .authors img{
-    max-width: 50px;
-    max-height: 80px;
-}
-
-.body .content .comment button{
-    border:none;
-    padding:10px;
-    font-weight: bolder;
-    box-shadow: 4px 6px #fff;
-    cursor: pointer;
-    float: right;
-}
-
-
-
-/* HEADER*/
-#header-container {
-    top: 0px;
-    padding: 5px;
-    margin: 0px;
-    width: 100%;
-    box-sizing: border-box;
-    height: 120px;
-    
-
-    background: linear-gradient(to bottom, #B4E1FF, #9CC6E6);
-
-
-    /* position: absolute; */
-
-
-    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-
-
-    z-index: 3;
-
-}
-
-#logo-container {
-    width: 250px;
-    height: 120px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    /* border: solid; */
-}
-
-
-
-#search-container {
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    width: 350px;
-    height: 120px;
-    right: 280px;
-    /* border: solid; */
-
-}
-
-#search-table {
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    /* border: solid; */
-    width: 250px;
-    height: 120px;
-    /* position: absolute;
-width: 2582px;
-height: 181px; */
-
-}
-
-input {
-    width: 300px;
-    /* Adjust the width as needed */
-    height: 30px;
-    /* Adjust the height as needed */
-}
-
-#logo-container img {
-    width: 100%;
-    height: 120px;
-    object-fit: fill;
-    overflow: hidden;
-}
-
-/* #logo-container img {
-    width: 100%;
-    height: 120px;
-    object-fit: fill;
-    overflow: hidden;
-} */
-
-input[type="text"] {
-    width: 500px;
-    height: 30px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 5px;
-    margin: 5px;
-    color: #333;
-}
-
-#search-container p {
-    font-size: 18px;
-    /* Adjust the font size to your preference */
-    font-family: Arial, sans-serif;
-    /* Set the desired font family */
-    color: #333;
-    /* Change the text color */
-    /* You can add more text styling properties here as needed */
-}
-#side-bar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 300px;
-    background-color: #F1F2F6;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    /* float: left;
-    position: absolute;
-
-    background-color: #F1F2F6;
-    width: 300px;
-    
     height: 100vh;
+
+    background-color: aqua;
+
     display: flex;
+    background-color: #F1F2F6;
+    box-sizing: border-box;
+    /* border-style: solid; */
+    width: 100%;
+    height: 100vh;
+
+
+
+    /* width: 100%;
+    height: 100vh; */
+
 
 
     justify-content: center;
-    flex-direction: column;
+    /* Horizontally center the image */
+    align-items: center;
 
-    align-items: center; */
-}
-
-.side-bar-button {
-
-    width: 290px;
-
-    text-align: left;
-
-
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 8px 16px;
-    padding-left: 40px;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
 
 }
 
-.side-bar-button:hover {
-    background-color: #888;
-    /* Gray color on hover */
-    border-radius: 5px;
-    /* Optional: Adds a rounded corner effect on hover */
+#container {
+    padding-top: 80px;
+
+    height: 100vh;
+    width: 60%;
+    /* background-color: white; */
+    box-sizing: border-box;
+    /* display: flex;
+    flex-wrap: wrap; */
+    overflow-y: auto;
+}
+
+
+
+#title {
+    text-align: center;
+    color: white;
+
+}
+
+#title-container {
+
+
+
+    box-sizing: border-box;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 90%;
+    height: 60px;
+    border-style: solid;
+
+    margin: 40px auto 0px;
+
+
+    background-color: black;
+
+
+}
+
+
+#container::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+#container::-webkit-scrollbar-thumb {
+    width: 0.1em;
+}
+
+.main-item {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+.side-item-container {
+    width: 100%;
+    height: auto;
+    /* border-style: solid; */
+    margin-top: 10px;
+}
+
+
+.img-container {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.img {
+
+    width: 110%;
+
+    /* object-fit: cover; */
+    position: absolute;
+    /* Set the position to absolute for precise placement */
+    top: 50%;
+    /* Move the image down by 50% of the container's height */
+    left: 50%;
+    /* Move the image right by 50% of the container's width */
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    border-top: 1px solid black;
+    /* Border style */
+    /* margin: 20px 0; */
+
+    width: 90%;
+    /* Margin above and below the divider */
+    /* Other styles you might want to apply */
+
+
+    /* 1 pixel solid border on the top side */
+
+
+}
+
+.main-item:hover {
+    background-color: black;
+    color: white;
+    /* Change text color for better readability */
 }
