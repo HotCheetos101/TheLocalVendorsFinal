@@ -1,4 +1,4 @@
-#main-container{
+#main-container {
     position: fixed;
     padding: 5px;
     /* border: 1px solid; */
@@ -6,10 +6,10 @@
     height: 87vh;
     right: 0px;
     bottom: 0px;
-    
+
 }
 
-#image-bottom{
+#image-bottom {
     position: absolute;
     height: 5vh;
     width: 50vh;
@@ -18,13 +18,13 @@
     left: 10vh;
 }
 
-#image-box{
+#image-box {
     position: absolute;
     height: 50vh;
     width: 50vh;
     /* border: solid; */
     background-repeat: no-repeat;
-    
+
 }
 
 #image-container {
@@ -39,10 +39,10 @@
     background-size: 55vh;
     top: 15vh;
     left: 10vh;
-    
+
 }
 
-#right-side-description{
+#right-side-description {
     background-color: white;
     position: absolute;
     padding: 10px;
@@ -61,13 +61,13 @@
     height: 10vh;
     width: 80vh;
     /* border: solid; */
-    /* background-image: url('/assets/star-rating.png');
+/* background-image: url('/assets/star-rating.png');
     background-size: 40vh;
     background-position: center center; */
-    
-/* } */ 
 
-#right-in-container{
+/* } */
+
+#right-in-container {
     background-color: #E0F4FF;
     padding: 15px;
     margin: 5px;
@@ -111,11 +111,12 @@ a:hover {
     color: #927fda;
 }
 
-#edit-product{
+#edit-product {
     width: 50%;
     height: fit-content;
     top: 10%;
     right: 25%;
     position: absolute;
+    display: flex;
+    gap: 20px;
 }
-
