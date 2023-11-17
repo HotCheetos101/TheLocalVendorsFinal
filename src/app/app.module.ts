@@ -26,6 +26,7 @@ import { VendorAccountPageComponent } from './vendor-account-page/vendor-account
 import { ProfileEditInfoComponent } from './profile-edit-info/profile-edit-info.component';
 import { ProfilePageVendorComponent } from './profile-page-vendor/profile-page-vendor.component';
 import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profile-edit-info-vendor.component';
+import { ForumCommentsComponent } from './forum-comments/forum-comments.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profi
     ProfileEditInfoComponent,
     ProfilePageVendorComponent,
     ProfileEditInfoVendorComponent,
+    ForumCommentsComponent,
   ],
   imports: [
     BrowserModule,
