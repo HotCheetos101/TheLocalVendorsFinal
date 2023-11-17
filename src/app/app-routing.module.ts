@@ -15,6 +15,7 @@ import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.com
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
 import { ItemPageComponent } from './item-page/item-page.component';
+import { ForumMainComponent } from './forum-main/forum-main.component';
 const routes: Routes = [
  {path: '', component: LoginPageComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
@@ -31,6 +32,7 @@ const routes: Routes = [
  {path: 'profile-user', component:ProfilePageComponent},
  {path: 'profile-vendor', component:VendorAccountPageComponent},
  {path: 'item-page', component:ItemPageComponent},
+ {path: 'forum-main', component:ForumMainComponent},
  
 ];
 
