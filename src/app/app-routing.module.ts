@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { LoginVendorComponent } from './login-vendor/login-vendor.component';
@@ -20,6 +20,8 @@ import { ForumCommentsComponent } from './forum-comments/forum-comments.componen
 import { ProfileEditInfoComponent } from './profile-edit-info/profile-edit-info.component';
 import { ProfilePageVendorComponent } from './profile-page-vendor/profile-page-vendor.component';
 import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profile-edit-info-vendor.component';
+import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.component';
+import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
 const routes: Routes = [
  {path: '', component: LoginPageComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
@@ -40,7 +42,9 @@ const routes: Routes = [
  {path: 'forum-comments', component:ForumCommentsComponent},
  {path: 'profile-edit-user', component:ProfileEditInfoComponent},
  {path: 'profile-vendor', component: ProfilePageVendorComponent},
- {path: 'profile-edit-vendor', component: ProfileEditInfoVendorComponent}
+ {path: 'profile-edit-vendor', component: ProfileEditInfoVendorComponent},
+ {path: 'forum-main-vendor', component:VendorForumMainComponent},
+ {path: 'forum-vendor-comment', component: VendorForumCommmentComponent},
  
 ];
 
