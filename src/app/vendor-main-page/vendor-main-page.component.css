@@ -30,10 +30,24 @@
 }   
 
 #store-desc{
+    position: relative;
     background-color: white;
     border-radius: 10px;
     height: fit-content;
     /* border: solid; */
+    padding: 5px;
+}
+
+#store-desc-long{
+    border-radius: 10px;
+    background-color: #E0F4FF;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    
+    right: 10%;
+    bottom: 10%;
+    top: 5%;
     padding: 5px;
 }
 
@@ -113,7 +127,7 @@ input[type="submit"] {
     border: none;
     outline: none;
     height: 50px;
-    width: 170px;
+    width: 250px;
     background: #4a53d3;
     color: rgb(255, 255, 255);
     font-size: 18px;

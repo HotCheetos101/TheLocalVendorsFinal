@@ -104,3 +104,35 @@ input[type="text"] {
     /* Change the text color */
     /* You can add more text styling properties here as needed */
 }
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 250px;
+    background: #4a53d3;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #aea1dd;
+    color: #000;
+}
+
+
+a:hover {
+    color: #927fda;
+}
+
+#register-container{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 35%;
+    top: 33%;
+}

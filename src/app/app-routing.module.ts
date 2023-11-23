@@ -23,7 +23,8 @@ import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profi
 import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.component';
 import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
 const routes: Routes = [
- {path: '', component: LoginPageComponent},
+  {path: '', component: LoginUserComponent},
+//  {path: '', component: LoginPageComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
  {path: 'main-vendor', component: VendorMainPageComponent},
  {path: 'add-item-vendor', component: VendorAddItemComponent},
