@@ -29,6 +29,8 @@ import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profi
 import { ForumCommentsComponent } from './forum-comments/forum-comments.component';
 import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.component';
 import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
+import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
+import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +64,8 @@ import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-for
     ForumCommentsComponent,
     VendorForumMainComponent,
     VendorForumCommmentComponent,
+    VendorDashboardComponent,
+    VendorViewItemComponent,
   ],
   imports: [
     BrowserModule,

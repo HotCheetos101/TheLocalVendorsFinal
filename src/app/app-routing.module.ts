@@ -22,6 +22,8 @@ import { ProfilePageVendorComponent } from './profile-page-vendor/profile-page-v
 import { ProfileEditInfoVendorComponent } from './profile-edit-info-vendor/profile-edit-info-vendor.component';
 import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.component';
 import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
+import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
+import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 const routes: Routes = [
   {path: '', component: LoginUserComponent},
 //  {path: '', component: LoginPageComponent},
@@ -46,6 +48,8 @@ const routes: Routes = [
  {path: 'profile-edit-vendor', component: ProfileEditInfoVendorComponent},
  {path: 'forum-main-vendor', component:VendorForumMainComponent},
  {path: 'forum-vendor-comment', component: VendorForumCommmentComponent},
+ {path: 'vendor-dashboard', component: VendorDashboardComponent},
+ {path: 'vendor-viewItem', component:  VendorViewItemComponent},
  
 ];
 
