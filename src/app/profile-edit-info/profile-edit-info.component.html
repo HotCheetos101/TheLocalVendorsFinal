@@ -21,6 +21,16 @@
                             <td><input type="text" id="email" placeholder="AAAAA@gmail.com"></td>
                         </tr>
                         <tr>
+                            <td>Old Password</td>
+                            <td>:</td>
+                            <td><input type="text" id="email" placeholder="AAAAA@gmail.com"></td>
+                        </tr>
+                        <tr>
+                            <td>New Password</td>
+                            <td>:</td>
+                            <td><input type="text" id="email" placeholder="AAAAA@gmail.com"></td>
+                        </tr>
+                        <tr>
                             <td>Address</td>
                             <td>:</td>
                             <td><input type="text" id="address" placeholder="Cebu City, 6000 Cebu"></td>
@@ -35,9 +45,15 @@
                 </table>
             </form>
         </div>
+        <button id="editButton" onclick="editProfile()" routerLink="/profile-user">Reset Password</button>
+
         <button id="editButton" onclick="editProfile()" routerLink="/profile-user">Save</button>
+        <button id="editButton" onclick="editProfile()" routerLink="/profile-user">Delete Account</button>
 
     </div>
+
+
+    
 </div>
 </div>
 
