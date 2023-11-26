@@ -29,7 +29,6 @@
     background-position: center center;
     z-index: 1;
 
-
 }
 
 
@@ -45,19 +44,27 @@
 }
 
 .loginbox {
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 850px;
     box-sizing: border-box;
-    padding: 70px 30px;
-    position: relative;
-    width: 400px;
+    padding: 30px 30px;
+    position: absolute;
     background: white;
     border-radius: 15px;
     box-shadow: 12px 14px 8px 0 rgba(0, 0, 0, 0.7);
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
+
+#desc{
+        padding: 10px;
+        margin: 10px;
+        width: 90%;
+        resize: none;   
+        height: 90px;
+}
+
 
 
 
