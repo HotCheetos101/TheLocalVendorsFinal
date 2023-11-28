@@ -13,7 +13,6 @@ import { CurrencyCalcuVendorComponent } from './currency-calcu-vendor/currency-c
 import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 import { VendorEditPageComponent } from './vendor-edit-page/vendor-edit-page.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
-// import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
 import { ItemPageComponent } from './item-page/item-page.component';
 import { ForumMainComponent } from './forum-main/forum-main.component';
 import { ForumCommentsComponent } from './forum-comments/forum-comments.component';
@@ -24,9 +23,9 @@ import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.
 import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
 import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
+import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 const routes: Routes = [
-  {path: '', component: LoginUserComponent},
-//  {path: '', component: LoginPageComponent},
+ {path: '', component: LoginUserComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
  {path: 'main-vendor', component: VendorMainPageComponent},
  {path: 'add-item-vendor', component: VendorAddItemComponent},
@@ -39,7 +38,6 @@ const routes: Routes = [
  {path: 'user-currency', component: CurrencyConverterComponent},
  {path: 'vendor-edit-page', component:VendorEditPageComponent},
  {path: 'profile-user', component:ProfilePageComponent},
-//  {path: 'profile-vendor', component:VendorAccountPageComponent},
  {path: 'item-page', component:ItemPageComponent},
  {path: 'forum-main', component:ForumMainComponent},
  {path: 'forum-comments', component:ForumCommentsComponent},
@@ -50,7 +48,7 @@ const routes: Routes = [
  {path: 'forum-vendor-comment', component: VendorForumCommmentComponent},
  {path: 'vendor-dashboard', component: VendorDashboardComponent},
  {path: 'vendor-viewItem', component:  VendorViewItemComponent},
- 
+ {path: 'user-homepage', component: UserHomepageComponent},
 ];
 
 @NgModule({

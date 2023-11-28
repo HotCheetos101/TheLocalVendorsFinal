@@ -31,6 +31,7 @@ import { VendorForumMainComponent } from './vendor-forum-main/vendor-forum-main.
 import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-forum-commment.component';
 import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
+import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.com
     VendorForumCommmentComponent,
     VendorDashboardComponent,
     VendorViewItemComponent,
+    UserHomepageComponent,
   ],
   imports: [
     BrowserModule,

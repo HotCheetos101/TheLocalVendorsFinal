@@ -5,16 +5,11 @@
 
     background-color: #F1F2F6;
     width: 300px;
-    /* border-right: solid;
-    border-color: antiquewhite; */
 
     height: 100vh;
     display: flex;
-
-
     justify-content: center;
     flex-direction: column;
-    /* Horizontally center the image */
     align-items: center;
 }
 
