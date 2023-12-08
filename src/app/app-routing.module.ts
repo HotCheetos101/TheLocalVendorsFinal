@@ -24,6 +24,7 @@ import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-for
 import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 import { UserHomepageComponent } from './user-homepage/user-homepage.component';
+import { StorePageComponent } from './store-page/store-page.component';
 const routes: Routes = [
  {path: '', component: LoginUserComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
@@ -49,6 +50,7 @@ const routes: Routes = [
  {path: 'vendor-dashboard', component: VendorDashboardComponent},
  {path: 'vendor-viewItem', component:  VendorViewItemComponent},
  {path: 'user-homepage', component: UserHomepageComponent},
+ {path: 'store-page', component: StorePageComponent},
 ];
 
 @NgModule({

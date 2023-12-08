@@ -32,6 +32,7 @@ import { VendorForumCommmentComponent } from './vendor-forum-commment/vendor-for
 import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.component';
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 import { UserHomepageComponent } from './user-homepage/user-homepage.component';
+import { StorePageComponent } from './store-page/store-page.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { UserHomepageComponent } from './user-homepage/user-homepage.component';
     VendorDashboardComponent,
     VendorViewItemComponent,
     UserHomepageComponent,
+    StorePageComponent,
   ],
   imports: [
     BrowserModule,
