@@ -33,6 +33,7 @@ import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.co
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 import { StorePageComponent } from './store-page/store-page.component';
+import { HamburgerMenuComponent } from './hamburger-menu/hamburger-menu.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { StorePageComponent } from './store-page/store-page.component';
     VendorViewItemComponent,
     UserHomepageComponent,
     StorePageComponent,
+    HamburgerMenuComponent,
   ],
   imports: [
     BrowserModule,
