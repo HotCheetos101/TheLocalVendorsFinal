@@ -1,56 +1,182 @@
 <app-header-user></app-header-user>
-<app-side-bar></app-side-bar>
+<!-- <app-side-bar></app-side-bar> -->
 
-<div id="top-container">
-    
-    
-</div>
-<div id="mid-header">
 
-    </div>
+
+
 <div id="main-container">
-    <div id="food-container">
-        <div class="food">
 
+    <div id="top-container">
+        <div id="store-name">
+            <h4>Top Vendor</h4>
+            <h1>Cebu Market Souvenirs</h1>
+            <ul>
+                <li>Food</li>
+                <li>Clothing</li>
+                <li>Accessories</li>
+            </ul>
         </div>
-        <div class="food">
-            
-        </div>
-        <div class="food">
-
-        </div>
-        <div class="food">
-            
-        </div>
-        <div class="food">
-            
-        </div>
-       
-    </div>
-    <div id="accesories-container">
-        <div class="accesories">
-
-        </div>
-        <div class="accesories">
-
-        </div>
-        <div class="accesories">
-
-        </div>
-        <div class="accesories">
-
+        <div id="store-desc">
+            <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p>
         </div>
     </div>
-    <div id="clothing-container">
-        <div class="cloth">
-
+  
+    <div id="lower-container">
+        <div id="location-form"> 
+            <div id="checkboxes">
+            <label for="">Food</label>
+            <input type="checkbox" name="" id="" checked>
+            <label for="">Accessories</label>
+            <input type="checkbox" name="" id="" checked>
+            <label for="">Clothing</label>
+            <input type="checkbox" name="" id="" checked>
+            </div>
+            <div id="search-bar">
+                <input type="text" class="searchBar" placeholder="Find Item ...">
+            </div>
+            <div class="btn">
+                <button>Find Item</button>
+            </div>
         </div>
-        <div class="cloth">
 
+        <div id="item-forms">
+            <div class="item-list">
+                <h2>Popular</h2>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/bracelet.jpg" alt=""> 
+                        <img src="/assets/add.png" alt="" class="add"> 
+
+                        <div class = "item-desc">  
+                           <h1>Bracelet ₱ 30</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/dmango.jpg" alt=""> 
+                        <div class = "item-desc">   
+                            <h1>Dried Mango ₱ 60</h1>
+                        </div>  
+                    </a>
+                </div>
+            </div>
+            <div class="item-list">
+                <h2>Foods</h2>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/dmango.jpg" alt=""> 
+                        <div class = "item-desc">  
+                            <h1>Dried Mango ₱ 60</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/dmango.jpg" alt=""> 
+                        <div class = "item-desc">   
+                            <h1>Dried Mango ₱ 60</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/dmango.jpg" alt=""> 
+                        <div class = "item-desc">   
+                            <h1>Dried Mango ₱ 60</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/dmango.jpg" alt=""> 
+                        <div class = "item-desc">   
+                            <h1>Dried Mango ₱ 60</h1>
+                        </div>  
+                    </a>
+                </div>
+
+            </div>
+            <div class="item-list">
+                <h2>Clothing</h2>
+                <div class="items">
+
+                </div>
+
+            </div>
+            <div class="item-list">
+                <h2>Accessories</h2>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/bag.jpg" alt=""> 
+                        <div class = "item-desc">  
+                           <h1>Bag ₱ 130</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/bracelet.jpg" alt=""> 
+                        <div class = "item-desc">  
+                           <h1>Bracelet ₱ 30</h1>
+                        </div>  
+                    </a>
+                </div>
+                <div class="items">
+                    <a routerLink="">
+                        <img src="/assets/bracelet.jpg" alt=""> 
+                        <div class = "item-desc">  
+                           <h1>Bracelet ₱ 30</h1>
+                        </div>  
+                    </a>
+                </div>
+
+            </div>
+
+            
         </div>
-        <div class="cloth">
 
+        <div id="cart">
+            
+            <div id="top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg>
+            </div>
+            <div id="bottom">
+               <table>
+                    <tr>
+                        <th> Name</th>
+                        <th> Quantity</th>
+
+                        <th> Price/.pc</th>
+                    </tr>
+                    <tr>
+                        <td>Dried Mango</td>
+                        <td><button>-</button><input type="text" value="5"><button>+</button></td>
+                        <td> ₱ 60</td>
+                    </tr>
+                    <tr>
+                        <td>Bag</td>
+                        <td><button>-</button><input type="text" value="1"><button>+</button></td>
+                        <td> ₱ 130</td>
+                    </tr>
+                    <tr>
+                        <td>Bracelet</td>
+                        <td><button>-</button><input type="text" value="2"><button>+</button></td>
+                        <td> ₱ 30</td>
+                    </tr>
+               </table>
+            </div>
+
+            <div id="Checkout">
+                <h2>Total : ₱ 490</h2>
+                <h5>Conversion Rate = $ 8.81 </h5>
+                <h1><button>CHECKOUT</button></h1>
+            </div>
         </div>
-
     </div>
+
 </div>
+
