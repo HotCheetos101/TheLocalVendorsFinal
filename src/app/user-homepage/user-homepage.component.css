@@ -74,6 +74,15 @@
     margin-right: 5px;
 }
 
+#filter-vendor{
+    padding: 5px;
+}
+
+#filter-vendor select{
+    margin: 10px;
+    width: 100px;
+}
+
  input[type="range"] {
     -webkit-appearance: none;
     width: 100%;
@@ -142,6 +151,21 @@ input[type="range"]::-webkit-slider-thumb:hover {
     border: solid;
 }
 
+.Rating{
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    width: 150px; /* Set the width of the container */
+    height: 120px; /* Set the height of the container */
+    background-size: cover; /* Crop the image to cover the entire container */
+    background-position: center; /* Center the image within the container */
+}
+
+#store-desc h2 {
+    position: absolute;
+    bottom: 100px;
+}
+
 #store-desc{
     padding: 5px;
    margin: 5px;
@@ -151,6 +175,16 @@ input[type="range"]::-webkit-slider-thumb:hover {
    background: white;
 }
 
+
+
+/* #store-desc img{
+    position: flex;
+    display: flex;
+   width: 92%;
+   height: 10%; 
+   border: solid;
+   background: white;
+} */
 
 
 #btn-bottom{
