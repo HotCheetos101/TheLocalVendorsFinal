@@ -1,60 +1,52 @@
-
-<div id="div-container">
-    <div id="left-div">
-        <img src="assets/TLV.png" alt="TLV Logo" id="TVL-Logo">
-
-    </div>
-
-
-
-    <div id="right-div">
-
-
-
-        <div class="loginbox">
-
-            <img src="assets/avatar.png" class="avatar">
-
-            
-            <form>
-                <h1>REGISTER AS VENDOR  </h1>
-
-
-                <input type="text" name="" id="" placeholder="Email of owner:">
-                <input type="text" name="" id="" placeholder="Name of owner:">
-                <input type="text" name="" id="" placeholder="Store Address:">
-                <input type="submit" name="" id="" value="Plot Location">
-                <input type="submit" name="" id="" value="Submit Store Picture">
-
-
-                  <form>
-                    <span>Store Description</span>
-                    <textarea name="" id="desc" cols="30" rows="10"></textarea>
-                  </form>
-
-                  <form>
-                    <span>Submit NBI Clearance</span>
-                    <label>
-                    
-                      Choose File
-                      <input type="file" />
-                    </label>
-                   
-                  </form>
-                  
-                <input type="text" name="" id="" placeholder="Password..">
-                <input type="text" name="" id="" placeholder="Retype Password..">
-
-                <a routerLink="/main-vendor"><input type="submit" name="" id="" value="Register"></a>
-                <a routerLink="/user-dashboard"><input type="submit" name="" id="" value="Back"></a>
+<div id="main-container">
+  <div id="img-logo">
+      <img src="/assets/TLV.png" alt="">
+  </div>
+  <div id="container">
+      <div id="form">
+          <h1>REGISTER AS VENDOR </h1>
+          <div>
+            <form action="" id="registration-user">
+              <table>
+              <tr>
+                <td>Email:</td>
+                <td><input type="text" name="" id=""></td>
+              </tr>
+              <tr>
+                <td>Username:</td>
+                <td><input type="text" name="" id=""></td>
+              </tr>
+              <tr>
+                <td>Password:</td>
+                <td><input type="text" name="" id=""></td>
+              </tr>
+              <tr>
+                <td>Retype Password:</td>
+                <td><input type="text" name="" id=""></td>
+              </tr>
+             </table> 
             </form>
-              
-        </div>
-
-
-
-
-
-    </div>
+          </div>
+            
+          <div>
+           <form action="" id="registration-store">
+            <table>
+              <tr>
+                <td>Store Name:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Store Address:</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>Store Description</td>
+                <td><textarea name="" id="" placeholder="Optional.."></textarea></td>
+              </tr>
+            </table>
+          </form> 
+          </div>
+          
+      </div>
 
 </div>

@@ -148,12 +148,53 @@ input[type="range"]::-webkit-slider-thumb:hover {
     margin: 5px;
     width: fit-content;
     height: 75%;
-    border: solid;
+    /* border: solid; */
 }
+
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    /* border: solid; */
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    /* margin-left: 0px; */
+}
+ul{
+    position: absolute;
+    bottom: 100px;
+    margin: 0px;
+    padding: 0px;
+    /* border: solid; */
+}
+
+h3{
+    position: absolute;
+    bottom: 190px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* li{
+    display: inline;
+    
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #007bff;
+    margin-right: 5px; 
+    border: solid;
+
+  } */
 
 .Rating{
     position: absolute;
-    bottom: 40px;
+    top: 10px;
     right: 80px;
     width: 150px; /* Set the width of the container */
     height: 120px; /* Set the height of the container */
@@ -163,11 +204,11 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 #store-desc h2 {
     position: absolute;
-    bottom: 100px;
+    top: 10px;
 }
 
 #store-desc{
-    padding: 5px;
+   padding: 5px;
    margin: 5px;
    width: 350px;
    height: 74%; 
