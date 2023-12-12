@@ -35,20 +35,27 @@ img{
     background-color: azure;
 }
 
-tr{
+/* tr{
     padding: 5px;
-}
-
+} */
+/* 
 td{
     margin: 5px;
     padding: 5px;
     height: 50px;
     width: fit-content;
+} */
+
+input[type="text"]{
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+    width: fit-content;
 }
 
 input{
     font-size: 20px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #other-accounts{
@@ -86,24 +93,20 @@ svg{
 #address-table{
     /* display: inline-block; */
     position: absolute;
-    right: 10px;
-    width: 80%;
+    /* right: 10px; */
+    left: 2%;
+    width:fit-content;
     font-size: 25px;
 }
 
-#address-table label{
-    /* position: absolute; */
-    /* position: absolute; */
-    left: 10px;
-    border: solid;
-    /* width: 500px  ; */
-}
+
+
+
 
 #checkout-settings{
     display: inline-block;
     position: absolute;
     margin-left: 55px;
-
     bottom: 8px;
     width: 69%;
     height: 450px;
