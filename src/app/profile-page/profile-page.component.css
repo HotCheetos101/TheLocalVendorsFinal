@@ -83,6 +83,22 @@ svg{
     border: 1px solid;
 }
 
+#address-table{
+    /* display: inline-block; */
+    position: absolute;
+    right: 10px;
+    width: 80%;
+    font-size: 25px;
+}
+
+#address-table label{
+    /* position: absolute; */
+    /* position: absolute; */
+    left: 10px;
+    border: solid;
+    /* width: 500px  ; */
+}
+
 #checkout-settings{
     display: inline-block;
     position: absolute;
