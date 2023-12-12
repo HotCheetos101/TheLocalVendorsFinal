@@ -111,7 +111,44 @@
   
   .dropdown:hover .dropdown-content {display: block;}
   
+/*  */
 
+#mySidenav a {
+    position: absolute;
+    margin-top: 50px;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #home {
+    top: 20px;
+    background-color:#B4E1FF;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #account {
+    top: 100px;
+    background-color:#9CC6E6;
+  }
+  
+  #logout {
+    top: 180px;
+    background-color: red;
+  }
 
 
 
