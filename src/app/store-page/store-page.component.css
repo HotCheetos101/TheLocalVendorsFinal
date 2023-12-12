@@ -51,7 +51,11 @@
   }
 
  
+.converter{
+  font-size: 15px;
 
+  margin-left: 5px;
+}
   
   #lower-container {
     position: fixed;
