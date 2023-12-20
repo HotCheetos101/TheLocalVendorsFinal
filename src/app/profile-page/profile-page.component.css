@@ -8,6 +8,7 @@
     align-items: center;
     /* border: 1px solid    navy; */
     font-size: medium;
+    overflow: hidden;
 }
 
 #account-container{
@@ -18,9 +19,31 @@
     margin: 10px;
     width: 25%;
     height: 95%;
-    border: 1px solid;
+    /* border-color: aliceblue; */
+    border: 5px aliceblue solid;
+    border-radius: 20px;
 }
 
+/* input.account-email{
+    width: 600px;
+} */
+
+button{
+    width: 150px;
+    border-radius: 15px ;
+    border: 1px;
+    color: white;
+    background-color:skyblue;
+    font-size: 15px;
+    height: 50px;
+}
+
+button:hover{
+    /* color: white; */
+
+    background-color: #007bff;
+
+}
 
 img{
     display: flex;
@@ -46,11 +69,11 @@ td{
     width: fit-content;
 } */
 
-input[type="text"]{
+input.account-email{
     margin: 5px;
     padding: 5px;
     height: 20px;
-    width: fit-content;
+    width: 300px;
 }
 
 input{
@@ -80,12 +103,14 @@ svg{
 #address{
     display: inline-block;
     position: absolute;
+    align-self: center;
     margin-left: 55px;
     top: 10px;
     padding: 10px;
-    width: 68%;
+    width: 67.8%;
     height: 250px;
-    border: 1px solid;
+    overflow:hidden;
+    border: aliceblue solid 5px;
 }
 
 
@@ -96,7 +121,7 @@ svg{
     left: 2%;
     width:96%;
     font-size: 25px;
-    border: solid;
+    /* border: solid; */
     padding: 10px;
 }
 
@@ -107,7 +132,7 @@ input#home-address{
 
 .input-address{
     margin: 5px;
-
+    width: 200px;
 }
 
 
@@ -119,10 +144,42 @@ input#home-address{
     bottom: 8px;
     width: 69%;
     height: 490px;
-    border: 1px solid;
+    
+    border-radius: 5px;
+    background-color: ghostwhite;
 }
 
+#other-settings h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items:  center ;
+}
 
+#other-settings button{
+    font-size: 40px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#other-settings{
+    align-items: center;
+    text-align: center;
+}
+
+.currency button{
+  margin-left: 5px;  
+}
+
+.currency label{
+    margin-right: 5px;
+}
+
+.currency select{
+    font-size: 25px;
+}
 
 
 

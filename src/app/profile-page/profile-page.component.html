@@ -9,15 +9,15 @@
         <table>
             <tr>
                 <td>Email:</td>
-                <td><input type="text" value="thelocalvendor@gmail.com"></td>
+                <td><input class="account-email" type="text" value="thelocalvendor@gmail.com"></td>
             </tr>
             <tr>
                 <td>Secondary Email:</td>
-                <td><input type="text" value="iamavendor@gmail.com"></td>
+                <td><input class="account-email" type="text" value="iamavendor@gmail.com"></td>
             </tr>
             <tr>
                 <td>Username:</td>
-                <td><input type="text" value="notAVendor"></td>
+                <td><input class="account-email" type="text" value="notAVendor"></td>
             </tr>
         </table>
         <h4>Connected Account's:</h4>
@@ -49,11 +49,13 @@
             <h5>Account Created: November 15 2023</h5>
             <h5>Account Last Activated: December 1 2023</h5>
         </div>
-        <Button>Save Info</Button>
+        <Button style="margin-right: 15px;">Save Info</Button>
+        <Button>Change Password</Button>
+
    </div>
 
    <div id="address">
-        <h2>Address Information</h2>
+        <h2>Address Information and Currency Setting</h2>
         <table id="address-table">
            <tr>
                 <td colspan="3" class="address-td">
@@ -76,10 +78,22 @@
                 </td>
            </tr>
            <tr>
-                <td colspan="3" class="address-td">
+                <td  class="address-td">
                     <label for="">Country:</label>
                     <input  name="" id="" class="input-address">
                 </td>
+                <td>
+                    <button>Save Address Info</button>
+                </td>
+                <td  class="currency">
+                    <label for="">Currency:</label>
+                    <select name="" id="">
+                        <option value="">Peso ₱</option>
+                        <option value="">Dollar $</option>
+                    </select>
+                    <button>Save Currency </button>
+                </td>
+                
            </tr>
         </table>
        
@@ -88,7 +102,8 @@
    </div>
 
    <div id="other-settings">
-    <!-- FORVENDORS? -->
+    <h1>This Is For Vendor Only</h1>
+    <button routerLink="/vendor-registration">Register as A Vendor?</button>
    </div>
    
 </div>
