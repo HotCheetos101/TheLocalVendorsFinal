@@ -123,6 +123,15 @@ svg{
     /* border: solid; */
     padding: 10px;
 }
+.SAVE{
+    position: relative;
+    left: 40px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    
+
+}
 
 #vendor-set {
     display: inline-block;

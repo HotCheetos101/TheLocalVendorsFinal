@@ -83,9 +83,7 @@
                 <label for="country">Country:</label>
                 <input type="text" id="country" class="input-address" name="country">
             </td>
-            <td>
-                <button>Save Address Info</button>
-            </td>
+        
             <td class="currency">
                 <label for="currency">Currency:</label>
                 <select id="currency" name="currency">
@@ -98,47 +96,40 @@
     </table>
 </div>
 <div id="vendor-set">
-    <h2>Address Information and Currency Setting</h2>
+    <h2>Vendor Settings</h2>
     <table id="vendor-table">
-        <tr>
-            <td colspan="3" class="vendor-td">
-                <label for="home-address">Home Address:</label>
-                <input type="text" id="home-address" name="home-address">
-            </td>
-        </tr>
+      
         <tr>
             <td class="vendor-td">
-                <label for="city">City:</label>
+                <label for="city">Contact Information:</label>
                 <input type="text" id="city" class="input-address" name="city">
-            </td>
+           
+            <tr>
             <td class="vendor-td">
-                <label for="state">State / Province:</label>
-                <input type="text" id="state" class="input-address" name="state">
-            </td>
-            <td class="vendor-td">
-                <label for="zip-code">Zip / Postal Code:</label>
-                <input type="text" id="zip-code" class="input-address" name="zip-code">
-            </td>
+                <label for="city">Store Address:</label>
+                <input type="text" id="city" class="input-address" name="city">
+          
+            </tr>
+          
         </tr>
         <tr>
             <td class="vendor-td">
-                <label for="country">Country:</label>
-                <input type="text" id="country" class="input-address" name="country">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="fileInput">NBI clearance:</label>
+                    <input type="file" id="fileInput" name="NBI clearance">
+                    <br>
+                    <input type="submit" value="Upload">
+                  </form>
             </td>
-            <td>
-                <button>Save Address Info</button>
-            </td>
-            <td class="currency">
-                <label for="currency">Currency:</label>
-                <select id="currency" name="currency">
-                    <option value="peso">Peso ₱</option>
-                    <option value="dollar">Dollar $</option>
-                </select>
-                <button>Save Currency</button>
-            </td>
+          
         </tr>
+
     </table>
+
 </div>
+
+<button class="SAVE">SAVE</button>
+
 
  
     <!-- <div id="other-settings">
