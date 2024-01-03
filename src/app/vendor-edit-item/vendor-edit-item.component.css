@@ -1,0 +1,243 @@
+.main-container {
+    position: relative;
+    width: 100%;
+    /* Set the width of your container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    top: 10%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid    navy; */
+    font-size: medium;
+    overflow: hidden;
+}
+
+#email-table {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#email-table td {
+    padding: 10px;
+}
+
+
+#currency-table {
+    margin-bottom: 60px;
+}
+
+
+#item-images {
+    display: flex;
+    justify-content: center;
+}
+
+#currency-table td {
+    padding: 10px;
+}
+
+#account-container {
+    position: relative;
+    left: 40px;
+    padding: 10px;
+    /* display: inline-block; */
+    padding-bottom: 20px;
+    margin: 0 auto;
+    /* margin: 10px; */
+    /* margin-left: 100px; */
+
+
+    width: 25%;
+    height: auto;
+    /* border-color: aliceblue; */
+    box-shadow: 0px 2px 4px 0px grey;
+    border-radius: 10px;
+}
+
+
+.bi :hover {
+    cursor: pointer;
+
+}
+
+#account-container hr {
+    margin-bottom: 50px;
+}
+
+#account-container img {
+    margin-top: 50px;
+}
+
+
+/* input.account-email{
+    width: 600px;
+  } */
+
+button {
+    width: 150px;
+    border-radius: 15px;
+    border: 1px;
+    color: white;
+    background-color: skyblue;
+    font-size: 15px;
+    height: 50px;
+}
+
+button:hover {
+    /* color: white; */
+
+    background-color: #007bff;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 100px;
+    padding: 20px;
+    height: 100px;
+    border: aliceblue solid 2px;
+    border-radius: 50px;
+    background-color: azure;
+}
+
+/* tr{
+    padding: 5px;
+  } */
+/* 
+  td{
+    margin: 5px;
+    padding: 5px;
+    height: 50px;
+    width: fit-content;
+  } */
+
+input.account-email {
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+    width: 300px;
+}
+
+input {
+    font-size: 20px;
+    /* width: 100%; */
+}
+
+#other-accounts {
+
+
+    width: 100%;
+    margin: 5px;
+}
+
+svg {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#account-created {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+
+#address {
+    display: inline-block;
+    position: absolute;
+    align-self: center;
+    margin-left: 55px;
+    top: 10px;
+    padding: 10px;
+    width: 67.8%;
+    height: 250px;
+    overflow: hidden;
+    border: aliceblue solid 5px;
+    border-radius: 20px;
+    height: 92%;
+}
+
+
+#address-table {
+    /* display: inline-block; */
+    position: absolute;
+    /* right: 10px; */
+    left: 2%;
+    width: 96%;
+    font-size: 25px;
+    /* border: solid; */
+    padding: 10px;
+}
+
+input#home-address {
+    width: 80%;
+    margin: 5px;
+}
+
+.input-address {
+    margin: 5px;
+    width: 200px;
+}
+
+
+
+#other-settings {
+    display: inline-block;
+    position: absolute;
+    margin-left: 55px;
+    bottom: 8px;
+    width: 69%;
+    height: 490px;
+
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+
+#other-settings h1 {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#other-settings button {
+    font-size: 40px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#other-settings {
+    align-items: center;
+    text-align: center;
+}
+
+.currency button {
+    margin-left: 5px;
+}
+
+.currency label {
+    margin-right: 5px;
+}
+
+.currency select {
+    font-size: 25px;
+}
+
+#edit-button {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+
+    border-style: solid;
+}
