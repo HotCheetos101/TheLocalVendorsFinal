@@ -1,0 +1,321 @@
+#main-container {
+    position: absolute;
+    left: 180px;
+    bottom: 0px;
+    width: 84%;
+    height: 93%;
+}
+
+#image-location {
+    position: flex;
+    display: flex;
+    background: gainsboro;
+
+    width: 100%;
+    height: 30%;
+
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#bottom {
+    position: absolute;
+
+    width: 100%;
+    height: 70%;
+    bottom: 0px;
+}
+
+#location-form {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px 4px 0px grey;
+}
+
+.searchBar {
+    position: static;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    width: 400px;
+}
+
+.btn button {
+    margin-right: 5px;
+
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+}
+
+#distance {
+    padding: 5px;
+}
+
+#distance label {
+    margin-right: 5px;
+}
+
+#filter-vendor {
+    padding: 5px;
+}
+
+#filter-vendor select {
+    margin: 10px;
+    width: 100px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}
+
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #0056b3;
+}
+
+#checkboxes {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#stores {
+
+    height: 90%;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#stores::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#store {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to bottom, #B4E1FF, #9CC6E6);
+    margin: 5px;
+    box-shadow: 0px 2px 2px 0px grey;
+}
+
+#store-image {
+    display: flex;
+
+    margin: 5px;
+    width: fit-content;
+    height: 75%;
+    /* border: solid; */
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    /* border: solid; */
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    /* margin-left: 0px; */
+}
+
+ul {
+    position: absolute;
+    bottom: 100px;
+    margin: 0px;
+    padding: 0px;
+    /* border: solid; */
+}
+
+h3 {
+    position: absolute;
+    bottom: 190px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* li{
+    display: inline;
+    
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #007bff;
+    margin-right: 5px; 
+    border: solid;
+
+  } */
+
+.Rating {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 150px;
+    /* Set the width of the container */
+    height: 120px;
+    /* Set the height of the container */
+    background-size: cover;
+    /* Crop the image to cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+}
+
+#store-desc h2 {
+    position: absolute;
+    top: 10px;
+}
+
+#store-desc {
+    padding: 5px;
+    margin: 5px;
+    width: 350px;
+    height: 74%;
+    /* border: solid; */
+    background: white;
+}
+
+
+
+/* #store-desc img{
+    position: flex;
+    display: flex;
+   width: 92%;
+   height: 10%; 
+   border: solid;
+   background: white;
+} */
+
+
+#btn-bottom {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 500px;
+    bottom: 0px;
+}
+
+.button {
+
+    width: 90%;
+    background-color: #141718;
+    height: 60px;
+    color: #ddd;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#distance {
+    margin: 20px;
+}
+
+#distance span {
+    font-size: 12px;
+}
+
+#mileSlider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    /* Adjust the height as needed */
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#mileSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    /* Adjust the thumb size */
+    height: 20px;
+    /* Adjust the thumb size */
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#mileSlider::-moz-range-thumb {
+    width: 20px;
+    /* Adjust the thumb size */
+    height: 20px;
+    /* Adjust the thumb size */
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#sliderLabels {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#sliderLabels span {
+    position: absolute;
+    bottom: -20px;
+    transform: translateX(-50%);
+}

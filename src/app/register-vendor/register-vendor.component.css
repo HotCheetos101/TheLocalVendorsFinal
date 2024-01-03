@@ -5,10 +5,12 @@
   place-items: center;
   background: linear-gradient(to bottom, #e2f3ff, #addcff);
 }
+
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
 }
+
 img.avatar {
   width: 15%;
   border-radius: 50%;
@@ -41,8 +43,8 @@ img.avatar {
   place-items: center;
 }
 
-#form {
-  align-items: center; 
+.form {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
