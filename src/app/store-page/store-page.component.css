@@ -268,6 +268,8 @@ h1 svg {
   /* border: solid; */
   box-shadow: 0px 2px 4px 0px grey;
   justify-content: center;
+  border-style: solid;
+
 }
 
 
@@ -414,13 +416,15 @@ h1 svg {
 #comments {
   position: absolute;
   display: inline-block;
-  top: 800px;
+  top: 700px;
   width: 20%;
   height: fit-content;
   /* border: solid; */
   margin-left: 2%;
   align-items: center;
   justify-content: center;
+  /* border-style: solid; */
+
 }
 
 
@@ -464,6 +468,7 @@ p {
 
 .add-comment {
   width: 100%;
+  /* border-style: solid; */
 }
 
 .add-comment textarea {
