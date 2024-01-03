@@ -150,25 +150,22 @@
 }
 
 
-#store {
+
+
+
+#transaction {
     top: 105px;
     background-color: #9CC6E6;
 }
 
 
-#transaction {
+#account {
     top: 190px;
     background-color: #9CC6E6;
 }
 
 
-#account {
-    top: 275px;
-    background-color: #9CC6E6;
-}
-
-
 #logout {
-    top: 360px;
+    top: 275px;
     background-color: red;
 }

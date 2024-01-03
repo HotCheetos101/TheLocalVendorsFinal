@@ -4,10 +4,29 @@
 
 
 <div id="main-container">
-    <div id="image-location">
-        <img id="map" src="assets/map-snippet.jpg" alt="">
+
+    <div id="top-container">
+        <div id="store-name">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>Top Vendor</h4>
+            <h1>Cebu Market Souvenirs</h1>
+            <ul>
+                <li>Food</li>
+                <li>Accessories</li>
+            </ul>
+        </div>
+        <div id="store-desc">
+            <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart
+                of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a
+                story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p>
+            <!-- <p >Address: 789 Heritage Lane</p> -->
+        </div>
     </div>
-    <div id="bottom">
+
+    <div id="lower-container">
         <div id="location-form">
             <!-- <div id="checkboxes">
             <label for="">Food</label>
@@ -17,243 +36,498 @@
             <label for="">Clothing</label>
             <input type="checkbox" name="" id="" checked>
             </div> -->
-            <div id="search-bar">
-
-                <input type="text" class="searchBar" placeholder="Enter Your Address">
-            </div>
-            <div class="btn">
-                <button>Find Vendor</button>
-            </div>
-
-            <!-- <div id="distance">
-                <label for="">Distance From You:</label>
-                <input type="range" id="mileSlider" name="mileSlider" min="0.1" max="0.5" step="0.1" value="0.1">
-            </div> -->
-
-            <div id="distance">
-                <label for="mileSlider">Distance From You In Kilometers:</label>
-                <input type="range" id="mileSlider" name="mileSlider" min="0.1" max="0.5" step="0.1" value="0.1">
-                <div id="sliderLabels">
-                    <span style="left: 10%;">0.1 km</span>
-                    <span style="left: 30%;">0.2 km</span>
-                    <span style="left: 50%;">0.3 km</span>
-                    <span style="left: 70%;">0.4 km</span>
-                    <span style="left: 90%;">0.5 km</span>
-                </div>
-            </div>
-
             <div id="filter-vendor">
                 <label for="">Sort By</label>
                 <select name="" id="">
                     <option value="">Name</option>
                     <option value="">Rating</option>
-                    <option value="">Distance</option>
 
-                    <option value="">Tags</option>
+                    <option value="">Price</option>
+                    <option value="">Instock</option>
                 </select>
             </div>
+            <div id="search-bar">
+                <input type="text" class="searchBar" placeholder="Find Item ...">
+            </div>
+            <div class="btn">
+                <button>Find Item</button>
+            </div>
         </div>
-        <div id="stores">
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Tags</li>
-                        <li>Gadgets</li>
-                    </ul>
+        <div id="item-forms">
+            <div class="item-list">
+                <h2>Popular</h2>
 
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                <div class="items">
+                    <a>
+                        <img src="/assets/bracelet.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Tags</li>
-                        <li>Beverages</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Gadgets</li>
-                        <li>Beverages</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
+                            <h2 style="display: inline-block;">Status: In stock</h2>
 
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Accessories</li>
-                        <li>Tags</li>
-                        <li>Gadgets</li>
-                        <li>Beverages</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Gadgets</li>
-                        <li>Beverages</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Tags</li>
-                        <li>Gadgets</li>
-                        <li>Beverages</li>
-                    </ul>
+                        </div>
+                    </a>
                 </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/bracelet.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
+
+
+
+
+
+
+
+
             </div>
 
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+            <div class="item-list">
+                <h2>Foods</h2>
+                <div class="items">
+                    <a>
+                        <img src="/assets/dmango.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Tags</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Accessories</li>
-                        <li>Gadgets</li>
-                    </ul>
-                </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
-                </div>
-            </div>
-            <div id="store">
-                <div id="store-image">
-                    <img src="/assets/store.jpg" alt="">
-                </div>
-                <div id="store-desc">
-                    <!-- <p id="store-desc-long"> Welcome to Cebu Market Souvenirs, where travelers find unique mementos in the heart of Cebu. Discover cultural treasures—handwoven textiles, intricately carved trinkets—each telling a story of Cebu's vibrant heritage. Visit us at 789 Heritage Lane to take home a piece of Cebu's charm</p> -->
-                    <h2>Cebu Market Souvenirs</h2>
-                    <img src="/assets/star-rating.png" alt="" class="Rating">
-                    <h3>Address: Address: 789 Heritage Lane</h3>
+                            <h2 style="display: inline-block;">Status: In stock</h2>
 
-                    <ul>
-                        <li>Food</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Gadgets</li>
-                        <li>Beverages</li>
-                    </ul>
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
-                <div id="btn-bottom">
-                    <button class="button" routerLink="/store-page">View Store</button>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/dmango.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
                 </div>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/dmango.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/dmango.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
             </div>
+
+            <div class="item-list">
+                <h2>Accessories</h2>
+
+
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/bag.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/bag.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
+                <div class="items">
+                    <a>
+                        <img src="/assets/bag.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="item-list">
+                <h2>Out Of Stock</h2>
+
+
+
+
+                <div class="items oos">
+                    <a>
+                        <img src="/assets/bag.jpg" alt="">
+                        <!-- <img src="/assets/add.png" alt="" class="add">  -->
+
+                        <div class="item-desc">
+                            <h2>Bracelet ₱ 30 [$0.54] </h2>
+
+                            <h2 style="display: inline-block;">Status: In stock</h2>
+
+                            <a routerLink="/vendor-edit-item" class="edit-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                </svg>
+                            </a>
+
+
+                            <a routerLink="/login-user" class="delete-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div id="comments">
+            <h2>Comments:</h2>
+
+            <div class="add-comment">
+                <textarea name="" id="" placeholder="Add A Comment"></textarea>
+            </div>
+
+            <div class="comment">
+                <h6>@John</h6>
+
+                <p>
+                    This Place So Cheap Dried Mango Number 1 In This Store
+                </p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path
+                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                </svg>
+
+
+                <textarea name="" class="reply-comment" placeholder="Add A Comment"></textarea>
+
+            </div>
+            <div class="comment">
+                <h6>@Ry</h6>
+                <p>
+                    Guitar Out Of Stock? Whens The Next Restock
+                </p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path
+                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                </svg>
+
+                <textarea name="" class="reply-comment" placeholder="Add A Comment"></textarea>
+            </div>
+            <div class="comment">
+                <h6>@Blue</h6>
+                <p>
+                    Bags Are Not Cheap
+                </p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
+                <!-- </button> -->
+                <textarea name="" class="reply-comment" placeholder="Add A Comment"></textarea>
+            </div>
+            <div class="comment">
+                <h6>@John</h6>
+                <p>
+                    Bracelet For 30?! Really?
+                </p>
+                <!-- <button> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
+                </svg>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
+                <!-- </button> -->
+                <textarea name="" class="reply-comment" placeholder="Add A Comment"></textarea>
+            </div>
+
+
         </div>
 
     </div>
 
-
 </div>
+
+<!-- <app-forum-topic-view></app-forum-topic-view> -->

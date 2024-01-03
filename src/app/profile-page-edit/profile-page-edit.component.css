@@ -15,7 +15,7 @@
 
 #email-table {
 
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
@@ -25,7 +25,7 @@
 
 
 #currency-table {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 
@@ -45,14 +45,14 @@
 
 
     width: 25%;
-    height: 92%;
+    height: 97%;
     /* border-color: aliceblue; */
     box-shadow: 0px 2px 4px 0px grey;
     border-radius: 10px;
 }
 
 #account-container hr {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #account-container img {

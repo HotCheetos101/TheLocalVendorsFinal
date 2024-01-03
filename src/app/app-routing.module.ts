@@ -27,6 +27,7 @@ import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 import { StorePageComponent } from './store-page/store-page.component';
 import { VendorDeleteItemComponent } from './vendor-delete-item/vendor-delete-item.component';
 import { VendorHomepageComponent } from './vendor-homepage/vendor-homepage.component';
+import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.component';
 
 const routes: Routes = [
   { path: '', component: LoginUserComponent },
@@ -55,6 +56,7 @@ const routes: Routes = [
   { path: 'vendor-viewItem', component: VendorViewItemComponent },
   { path: 'user-homepage', component: UserHomepageComponent },
   { path: 'store-page', component: StorePageComponent },
+  { path: 'profile-page-edit', component: ProfilePageEditComponent },
 
   { path: 'vendor-homepage', component: VendorHomepageComponent },
 
