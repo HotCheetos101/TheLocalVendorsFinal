@@ -455,7 +455,7 @@ h1 svg{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 900;
   }
   
@@ -468,16 +468,26 @@ h1 svg{
   .close-btn {
     cursor: pointer;
     font-weight: bold;
+   
   }
   
   /* Style for the trigger button */
   #openModalBtn {
+  margin: 0%;
+    padding: 8px 20px;
+    width: 10px;
+    border: none;
+    border-radius: 0px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
     cursor: pointer;
   }
   
   /* Style to hide the checkbox */
   #modalCheckbox {
     display: none;
+ 
   }
   
   /* Style to show/hide modal based on checkbox state */

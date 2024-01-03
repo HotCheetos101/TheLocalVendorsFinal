@@ -25,8 +25,10 @@ import { VendorDashboardComponent } from './vendor-dashboard/vendor-dashboard.co
 import { VendorViewItemComponent } from './vendor-view-item/vendor-view-item.component';
 import { UserHomepageComponent } from './user-homepage/user-homepage.component';
 import { StorePageComponent } from './store-page/store-page.component';
+import { VendorDeleteItemComponent } from './vendor-delete-item/vendor-delete-item.component';
 const routes: Routes = [
  {path: '', component: LoginUserComponent},
+ {path: 'vendor-delete',component:VendorDeleteItemComponent},
  {path: 'login-vendor', component: LoginVendorComponent},
  {path: 'main-vendor', component: VendorMainPageComponent},
  {path: 'add-item-vendor', component: VendorAddItemComponent},
