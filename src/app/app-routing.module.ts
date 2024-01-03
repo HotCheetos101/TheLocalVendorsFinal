@@ -28,7 +28,7 @@ import { StorePageComponent } from './store-page/store-page.component';
 import { VendorDeleteItemComponent } from './vendor-delete-item/vendor-delete-item.component';
 import { VendorHomepageComponent } from './vendor-homepage/vendor-homepage.component';
 import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.component';
-
+import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.component';
 const routes: Routes = [
   { path: '', component: LoginUserComponent },
   { path: 'vendor-delete', component: VendorDeleteItemComponent },
@@ -57,6 +57,12 @@ const routes: Routes = [
   { path: 'user-homepage', component: UserHomepageComponent },
   { path: 'store-page', component: StorePageComponent },
   { path: 'profile-page-edit', component: ProfilePageEditComponent },
+
+
+  { path: 'vendor-add-item', component: VendorAddItemComponent },
+
+  { path: 'vendor-edit-item', component: VendorEditItemComponent },
+
 
   { path: 'vendor-homepage', component: VendorHomepageComponent },
 

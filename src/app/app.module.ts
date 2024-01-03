@@ -38,6 +38,7 @@ import { VendorDeleteItemComponent } from './vendor-delete-item/vendor-delete-it
 import { VendorHomepageComponent } from './vendor-homepage/vendor-homepage.component';
 import { HeaderVendorComponent } from './header-vendor/header-vendor.component';
 import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.component';
+import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.
     VendorHomepageComponent,
     HeaderVendorComponent,
     ProfilePageEditComponent,
+    VendorEditItemComponent,
   ],
   imports: [
     BrowserModule,

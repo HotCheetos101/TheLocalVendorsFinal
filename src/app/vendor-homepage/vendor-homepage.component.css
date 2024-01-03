@@ -129,6 +129,7 @@ ul li {
 
 .btn button {
     margin-right: 5px;
+    width: 150px;
 
     padding: 8px 20px;
     border: none;
@@ -138,6 +139,21 @@ ul li {
     font-size: 16px;
     cursor: pointer;
 }
+
+
+.btn2 button {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 150px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 
 .btn button:hover {
