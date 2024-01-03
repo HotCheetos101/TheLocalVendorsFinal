@@ -1,0 +1,82 @@
+<app-header-user></app-header-user>
+<div id="main-container">
+
+  
+    <div id="lower-container">
+        <div id="location-form"> 
+            <div id="checkboxes">
+            <label for="">Food</label>
+            <input type="checkbox" name="" id="" checked>
+            <label for="">Accessories</label>
+            <input type="checkbox" name="" id="" checked>
+            <label for="">Clothing</label>
+            <input type="checkbox" name="" id="" checked>
+            </div>
+            <div id="filter-vendor">
+                <label for="">Sort  By</label>
+                <select name="" id="">
+                    <option value="">Name</option>
+                    <option value="">Rating</option>
+
+                    <option value="">Price</option>
+                    <option value="">Instock</option>
+                </select>
+            </div>
+            <div id="search-bar">
+                <input type="text" class="searchBar" placeholder="Find Item ...">
+            </div>
+            <div class="btn">
+                <button>Find Item</button>
+            </div>
+        
+        </div>
+        <div id="navbar">
+            <a href="#home">Add Item</a>
+            <a href="#about">Edit Item Details</a>
+            <a href="#services">Remove Items</a>
+          
+          </div>
+     
+        <div id="item-forms">
+            <div class="item-list">
+                <h2>Delete Item</h2>
+             
+                <div class="image-container">
+                    <input type="checkbox" id="item-checkbox-1">
+                    <label for="item-checkbox-1" class="items">
+                      <img src="/assets/bracelet.jpg" alt="">
+                      <h1 class="add">&#10004;</h1>
+                      <div class="item-desc">
+                        <h1>Bracelet ₱ 30 </h1>
+                        <small class="converter">[$0.54]</small>
+                      </div>
+                    </label>
+                  </div>
+
+                  <label for="modalCheckbox" id="openModalBtn">Delete Item</label>
+
+<!-- The modal -->
+<input type="checkbox" id="modalCheckbox">
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <p>Item Deleted</p>
+    <label class="close-btn" for="modalCheckbox">Close</label>
+  </div>
+</div>
+
+<!-- The overlay -->
+<div id="overlay"></div>
+                  
+
+                  <!-- <div class="image-container">
+                    <input type="checkbox" id="item-checkbox-1">
+                    <label for="item-checkbox-1" class="items">
+                      <img src="/assets/bracelet.jpg" alt="">
+                      <h1 class="add">&#10004;</h1>
+                      <div class="item-desc">
+                        <h1>Bracelet ₱ 30 </h1>
+                        <small class="converter">[$0.54]</small>
+                      </div> -->
+                    <!-- </label>
+                  </div>
+                   -->
