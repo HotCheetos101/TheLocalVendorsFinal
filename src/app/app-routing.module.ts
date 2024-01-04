@@ -29,6 +29,10 @@ import { VendorDeleteItemComponent } from './vendor-delete-item/vendor-delete-it
 import { VendorHomepageComponent } from './vendor-homepage/vendor-homepage.component';
 import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.component';
 import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.component';
+import { VendorAccountPageComponent } from './vendor-account-page/vendor-account-page.component';
+import { VendorAccountPageEditComponent } from './vendor-account-page-edit/vendor-account-page-edit.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 const routes: Routes = [
   { path: '', component: LoginUserComponent },
   { path: 'vendor-delete', component: VendorDeleteItemComponent },
@@ -57,6 +61,15 @@ const routes: Routes = [
   { path: 'user-homepage', component: UserHomepageComponent },
   { path: 'store-page', component: StorePageComponent },
   { path: 'profile-page-edit', component: ProfilePageEditComponent },
+
+  { path: 'vendor-account-page', component: VendorAccountPageComponent },
+  { path: 'vendor-account-page-edit', component: VendorAccountPageEditComponent },
+
+  { path: 'checkout', component: CheckoutComponent },
+
+  { path: 'transaction', component: TransactionHistoryComponent },
+
+
 
 
   { path: 'vendor-add-item', component: VendorAddItemComponent },

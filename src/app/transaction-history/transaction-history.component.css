@@ -14,9 +14,11 @@
 }
 
 #email-table {
+    /* display: fle; */
 
-    margin-top: 20px;
-    margin-bottom: 10px;
+    /* border-style: solid; */
+    margin: 0 auto;
+    width: auto;
 }
 
 #email-table td {
@@ -59,10 +61,10 @@
     margin-top: 50px;
 }
 
+#barcode {
 
-/* input.account-email{
-    width: 600px;
-} */
+    width: 300px;
+}
 
 button {
     width: 150px;
@@ -88,10 +90,9 @@ img {
     align-items: center;
     width: 100px;
     padding: 20px;
-    height: 100px;
-    border: aliceblue solid 2px;
-    border-radius: 50px;
-    background-color: azure;
+
+
+
 }
 
 /* tr{
@@ -178,6 +179,7 @@ input#home-address {
 }
 
 
+
 #other-settings {
     display: inline-block;
     position: absolute;
@@ -228,4 +230,18 @@ input#home-address {
     width: 100%;
 
     border-style: solid;
+}
+
+.transactions td,
+th {
+
+    padding: 2px;
+}
+
+
+
+.transactions {
+    width: 100%;
+    margin: 0 auto;
+
 }

@@ -39,6 +39,9 @@ import { VendorHomepageComponent } from './vendor-homepage/vendor-homepage.compo
 import { HeaderVendorComponent } from './header-vendor/header-vendor.component';
 import { ProfilePageEditComponent } from './profile-page-edit/profile-page-edit.component';
 import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.component';
+import { VendorAccountPageEditComponent } from './vendor-account-page-edit/vendor-account-page-edit.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +85,9 @@ import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.com
     HeaderVendorComponent,
     ProfilePageEditComponent,
     VendorEditItemComponent,
+    VendorAccountPageEditComponent,
+    CheckoutComponent,
+    TransactionHistoryComponent,
   ],
   imports: [
     BrowserModule,
