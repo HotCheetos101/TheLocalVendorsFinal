@@ -33,6 +33,7 @@ import { VendorAccountPageComponent } from './vendor-account-page/vendor-account
 import { VendorAccountPageEditComponent } from './vendor-account-page-edit/vendor-account-page-edit.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { VendorTransactionHistoryComponent } from './vendor-transaction-history/vendor-transaction-history.component';
 const routes: Routes = [
   { path: '', component: LoginUserComponent },
   { path: 'vendor-delete', component: VendorDeleteItemComponent },
@@ -68,6 +69,7 @@ const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
 
   { path: 'transaction', component: TransactionHistoryComponent },
+  { path: 'vendor-transaction', component: VendorTransactionHistoryComponent },
 
 
 

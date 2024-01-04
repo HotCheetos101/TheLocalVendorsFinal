@@ -42,6 +42,7 @@ import { VendorEditItemComponent } from './vendor-edit-item/vendor-edit-item.com
 import { VendorAccountPageEditComponent } from './vendor-account-page-edit/vendor-account-page-edit.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { TransactionHistoryComponent } from './transaction-history/transaction-history.component';
+import { VendorTransactionHistoryComponent } from './vendor-transaction-history/vendor-transaction-history.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { TransactionHistoryComponent } from './transaction-history/transaction-h
     VendorAccountPageEditComponent,
     CheckoutComponent,
     TransactionHistoryComponent,
+    VendorTransactionHistoryComponent,
   ],
   imports: [
     BrowserModule,
